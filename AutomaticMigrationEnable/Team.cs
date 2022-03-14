@@ -10,5 +10,6 @@ namespace AutomaticMigrationEnable
         public short FoundationYear { get; set; }
         public ICollection<Player> Players { get; set; }
         public ICollection<Sponsor> Sponsors { get; set; }
+        
     }
 }

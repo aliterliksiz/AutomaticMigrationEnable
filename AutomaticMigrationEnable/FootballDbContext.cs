@@ -8,6 +8,7 @@ namespace AutomaticMigrationEnable
         public DbSet<Player> Players { get; set; }
         public DbSet<PlayerAddress> PlayerAddresses { get; set; }
         public DbSet<Sponsor> Sponsors { get; set; }
+        
 
         public FootballDbContext():base("FootballDbConStr")
         {
